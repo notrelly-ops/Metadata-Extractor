@@ -9,7 +9,7 @@ class MetadataViewer:
     def __init__(self, root):
         self.root = root
         self.root.title("Metadata Editor")
-        self.root.geometry("1100x700")
+        self.root.geometry("1500x700")
         
         self.filename = None
         self.original_data = None
@@ -643,4 +643,5 @@ class MetadataViewer:
 if __name__ == "__main__":
     root = tk.Tk()
     app = MetadataViewer(root)
+
     root.mainloop()
