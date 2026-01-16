@@ -1,8 +1,20 @@
-Metadata Editor is a Python-based GUI tool for inspecting and editing printable strings inside binary and metadata files. It allows you to load executables, DLLs, or raw data files, automatically extract ASCII and UTF-16 strings, and view their exact file offsets and lengths.
+Metadata Editor
 
-The tool provides powerful filtering options, including search, minimum string length, hex preview mode, and a “modified only” view. Individual strings can be edited in-place with clear warnings when changes exceed the original length, and all modifications can be safely written back to the file in one operation.
+Metadata Editor is a Python Tkinter GUI tool for inspecting and editing strings in binary and metadata files. It automatically extracts ASCII and UTF-16 strings, shows their offsets and lengths, and lets you search, filter, and modify them. All changes can be saved back safely. Ideal for reverse engineering, modding, and exploring file data.
 
-Additional analysis features include basic file signature detection, pattern extraction for potential integers and floats, and lightweight data-type inspection (such as PE headers and null-byte density). Designed for reverse engineering, modding, and metadata exploration, this editor offers a practical balance between usability and low-level control.
+Features:
+
+Load binaries, executables, DLLs, and raw data files
+
+Extract and display ASCII and UTF-16 strings with offsets
+
+Search, filter by length, and view only modified strings
+
+Hex preview mode for low-level inspection
+
+Edit strings safely with warnings for length changes
+
+Pattern extraction for integers/floats and basic data-type analysis
 
 
 <img width="1493" height="723" alt="metadataextractorpicture" src="https://github.com/user-attachments/assets/282cb64f-bc68-4b8c-85d0-d38ba372ac07" />
