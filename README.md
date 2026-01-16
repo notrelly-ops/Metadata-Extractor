@@ -14,4 +14,4 @@
 
 
 
-<img width="1493" height="723" alt="metadataextractorpicture" src="https://github.com/user-attachments/assets/282cb64f-bc68-4b8c-85d0-d38ba372ac07" />
+<img width="1492" height="722" alt="metadataextpicture" src="https://github.com/user-attachments/assets/c1c42a22-fd51-458c-a94b-6978d03bb670" />
